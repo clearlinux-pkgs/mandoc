@@ -1,0 +1,25 @@
+From a3d5c5ff70e5f5b13f36d58c04ac5b67dac7f8be Mon Sep 17 00:00:00 2001
+From: William Douglas <william.douglas@intel.com>
+Date: Wed, 11 Oct 2023 16:23:49 -0700
+Subject: [PATCH] Remove local from prefix
+
+---
+ configure | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure b/configure
+index 5cf4e08..cbe4cbe 100755
+--- a/configure
++++ b/configure
+@@ -102,7 +102,7 @@ NEED_XPG4_2=0
+ MANDOC_COBJS=
+ SOELIM_COBJS=
+ 
+-PREFIX="/usr/local"
++PREFIX="/usr"
+ BINDIR=
+ SBINDIR=
+ BIN_FROM_SBIN=
+-- 
+2.42.0
+
